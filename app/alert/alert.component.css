@@ -1,0 +1,10 @@
+.red{
+    background-color: red;
+    color: white;
+    border-radius: 5%;
+}
+.green{
+    background-color: green;
+    color: red;
+    border-radius: 5%;
+}

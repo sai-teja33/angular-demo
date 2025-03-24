@@ -1,0 +1,19 @@
+<p>parent works!</p>
+<app-child (data)="receiveData($event)" ></app-child>
+<p>{{message}}</p>
+<hr>
+<h2>Ng content</h2>
+<!-- <app-child>
+    <div>{{greet}}</div>
+</app-child> -->
+<div class="row">
+    <div class="col-6">
+<app-child [items]="state">State</app-child>
+    </div>
+<div class="col-6">`
+<app-child [items]="city">Capital</app-child>
+</div>
+</div>
+<a routerLink="child1">Child1</a><br>
+<a routerLink="child2">Child2</a>
+<router-outlet></router-outlet>

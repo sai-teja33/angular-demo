@@ -1,0 +1,15 @@
+<p>home works!</p>
+{{title}}
+<h1>My name is {{name|uppercase}}</h1>
+<h3>Today Date is {{date|date:'dd/MM/yy'}}</h3>
+<p>I'm from  {{city|lowercase}}</p>
+<p>My salary is:{{salary|currency:'INR'}}</p>
+<span>{{salary|number:'1.3-5'}}</span>
+<br>
+<p>{{salary/100| percent}}</p>
+<span>{{info|json}}</span>
+<h3>{{city|reverse}}</h3>
+<input [type]="type">
+<button (click)="showAlert('Welcome')" >Alert</button>
+<br>
+<input type="text" [(ngModel)]="city"/>
